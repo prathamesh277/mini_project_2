@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+.editorWrap{
+    padding-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnbar{
+    padding-top:20px;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flexer{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    height: 40px;
+    width: 60px;
+    font-weight: bolder;
+}
+.addbtn:hover{
+    transform: scale(1.2);
+}
+#notewrite{
+    display: block;
+    margin: 0 auto;
+    border-radius:5px;
+    height: 70vh;
+    width: 80vw;
+    padding:1rem 1rem;
+    resize:none;
+    font-size:1.2rem;
+}
+#notewrite::placeholder{
+    color:rgb(5, 2, 26)
+}
+@media screen and (max-width:600px){
+    .flexer{
+        width: 100%;
+    }
+}
